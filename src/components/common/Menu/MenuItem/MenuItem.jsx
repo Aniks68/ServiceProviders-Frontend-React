@@ -11,7 +11,7 @@ import {
 } from '../../../../redux/cart/cart.selector';
 
 import ButtonAddRemoveItem from '../../ButtonAddRemoveItem';
-import './styles.css';
+import classes from './MenuItem.module.css';
 
 const MenuItem = ({
   item,
@@ -34,7 +34,7 @@ const MenuItem = ({
   };
 
   return (
-    <div className='item'>
+    <div className={classes.item}>
       <img src={img} alt='food' />
       <div className='item-head_desc'>
         <p className='head_desc-name'>{name}</p>

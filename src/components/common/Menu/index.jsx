@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import MenuItem from './MenuItem';
+import MenuItem from './MenuItem/MenuItem';
 import './styles.css';
 
 const Menu = forwardRef(({ list }, ref) => (

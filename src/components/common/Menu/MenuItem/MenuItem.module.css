@@ -1,16 +1,17 @@
 .item {
-  width: 150px;
+  width: 250px;
   padding: 0 0.8rem 0.8rem 0.8rem;
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 20px;
   text-align: center;
   flex-direction: column;
   display: flex;
 }
 
 .item img {
-  margin-top: -3rem;
-  height: 130px;
+  margin-right: -9rem;
+  margin-top: -2.5rem;
+  height: 100px;
   object-fit: contain;
 }
 .item-foot_desc {
