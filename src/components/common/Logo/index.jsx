@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './logo.png';
 import './styles.css';
 
 const Logo = () => (
-  <div className='header-content_logo'>
+  <Link to='/' className='header-content_logo'>
     <div>
       <img src={logo} alt='logo' />
       <span>
@@ -13,7 +14,7 @@ const Logo = () => (
     <p>
       <b>Restaurant & BBQ</b>
     </p>
-  </div>
+  </Link>
 );
 
 export default Logo;
