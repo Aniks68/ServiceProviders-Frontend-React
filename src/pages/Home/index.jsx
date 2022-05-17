@@ -9,7 +9,7 @@ import fisherShuffle from '../../components/common/Menu/Shuffler';
 const Home = () => {
   const menuRef = useRef();
 
-  const shuffledData = fisherShuffle(menuItemsData).slice(0, 6);
+  const shuffledData = fisherShuffle(menuItemsData).slice(0);
 
   const handleScrollMenu = () => {
     menuRef.current.scrollIntoView({ behavior: 'smooth' });
