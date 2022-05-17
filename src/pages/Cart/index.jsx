@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import EmptyCart from '../../components/Cart/EmptyCart';
 import Footer from '../../components/common/Footer';
-import Logo from '../../components/common/Logo';
+import Logo from '../../components/common/Logo/Logo';
 import Menu from '../../components/common/Menu/Menu';
 import MenuItem from '../../components/common/Menu/MenuItem/MenuItem';
 import {

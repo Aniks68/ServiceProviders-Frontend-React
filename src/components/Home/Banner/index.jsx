@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import bannerImg from './banner.png';
-import Logo from '../../common/Logo';
+import Logo from '../../common/Logo/Logo';
 
 const Banner = ({ handleScrollMenu }) => (
   <header>
