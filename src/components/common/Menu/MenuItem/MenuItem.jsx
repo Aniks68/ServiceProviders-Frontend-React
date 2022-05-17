@@ -36,14 +36,14 @@ const MenuItem = ({
   return (
     <div className={classes.item}>
       <img src={img} alt='food' />
-      <div className='item-head_desc'>
-        <p className='head_desc-name'>{name}</p>
-        <p className='head_desc-info'>
+      <div className={classes['item-head_desc']}>
+        <p className={classes['head_desc-name']}>{name}</p>
+        <p className={classes['head_desc-info']}>
           <small>{info}</small>
         </p>
       </div>
-      <div className='item-foot_desc'>
-        <span className='foot_desc-price'>${price}</span>
+      <div className={classes['item-foot_desc']}>
+        <span className={classes['foot_desc-price']}>${price}</span>
         <ButtonAddRemoveItem
           quantity={handleQuantity()}
           handleRemoveItem={() => cartRemoveItem(item)}
