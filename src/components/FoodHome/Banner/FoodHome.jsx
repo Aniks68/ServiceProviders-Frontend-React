@@ -1,13 +1,13 @@
 import React from 'react';
-import './styles.css';
+import classes from './FoodHome.module.css';
 import bannerImg from './banner.png';
 import Logo from '../../common/Logo/Logo';
 
 const Banner = ({ handleScrollMenu }) => (
   <header>
-    <div className='header-content'>
+    <div className={classes['header-content']}>
       <Logo />
-      <div className='content-main'>
+      <div className={classes['content-main']}>
         <h1>Delicious food for your cravings</h1>
         <p>We made fresh and healthy meals with different recipes</p>
         <button onClick={handleScrollMenu}>
@@ -15,7 +15,7 @@ const Banner = ({ handleScrollMenu }) => (
         </button>
       </div>
     </div>
-    <img className='header-img' src={bannerImg} alt='banner' />
+    <img className={classes['header-img']} src={bannerImg} alt='banner' />
   </header>
 );
 

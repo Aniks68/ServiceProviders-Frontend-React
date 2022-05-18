@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import ButtonCartCount from '../../components/common/ButtonCartCount';
 import Footer from '../../components/common/Footer';
-import Banner from '../../components/Home/Banner';
+import Banner from '../../components/FoodHome/Banner/FoodHome';
 import Menu from '../../components/common/Menu/Menu';
 import { menuItemsData } from '../../components/common/Menu/data';
 import fisherShuffle from '../../components/common/Menu/Shuffler';

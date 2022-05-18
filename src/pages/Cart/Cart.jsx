@@ -1,17 +1,16 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import EmptyCart from '../../components/Cart/EmptyCart';
+import EmptyCart from '../../components/Cart/EmptyCart/EmptyCart';
 import Footer from '../../components/common/Footer';
 import Logo from '../../components/common/Logo/Logo';
 import Menu from '../../components/common/Menu/Menu';
-// import MenuItem from '../../components/common/Menu/MenuItem/MenuItem';
 import {
   selectCartItems,
   selectCartItemsCount,
   selectCartTotal,
 } from '../../redux/cart/cart.selector';
-import './styles.css';
+import classes from './Cart.module.css';
 
 const Cart = ({ cartCount, cartList, cartTotal }) => {
   return (
