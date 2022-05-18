@@ -15,18 +15,18 @@ import classes from './Cart.module.css';
 const Cart = ({ cartCount, cartList, cartTotal }) => {
   return (
     <>
-      <div className='cart-header'>
+      <div className={classes['cart-header']}>
         <Logo />
       </div>
       {cartCount === 0 ? (
         <EmptyCart />
       ) : (
-        <div className='orders'>
-          <h1 className='orders-heading'>Your Orders</h1>
-          <div className='orders-menu'>
+        <div className={classes['orders']}>
+          <h1 className={classes['orders-heading']}>Your Orders</h1>
+          <div className={classes['orders-menu']}>
             <Menu list={cartList} />
           </div>
-          <h3 className='orders-total'>Your Total ${cartTotal}</h3>
+          <h3 className={classes['orders-total']}>Your Total ${cartTotal}</h3>
         </div>
       )}
       <Footer />
