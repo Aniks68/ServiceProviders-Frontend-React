@@ -6,7 +6,7 @@ const EmptyCart = () => {
   const history = useHistory();
   return (
     <div className='emptyCart'>
-      <img src='https://merchlist.co/assets/emptycart.png' alt='' />
+      <img src='/images/emptycart.png' alt='empty-cart' />
       <button onClick={() => history.push('/')}>
         <i className='fas fa-long-arrow-alt-left'></i> Shop Now
       </button>
